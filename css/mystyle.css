@@ -1,0 +1,286 @@
+body{
+	font-size: 11px;
+	background: #c3282d;
+}
+a{
+	color: #3d3d3d;
+}
+
+.nav>li>a {
+    padding: 5px 5px 2px;
+}
+.nav.child_menu>li>a {
+    color: rgba(255,255,255,.75);
+    font-size: 11px;
+    padding: 5px;
+}
+.left_col{
+	background: #c3282d;
+}
+.nav_title{
+	background: #c3282d;
+	width: 100%;
+	padding: 10px;
+}
+.nav_title img {
+	width: 100%;
+}
+.sidebar-footer, .sidebar-footer a{
+	background: #c3282d;
+}
+.nav_menu{
+	background: #eee;
+}
+.login{
+	background: #c3282d;
+}
+.login_wrapper{
+	max-width: 400px;
+}
+.login a{
+	color: #000;
+}
+.login_form{
+	padding: 10px;
+	border-radius: 10px;
+	background: #fff;
+}
+.login_content form input[type=text]{
+	margin: 0 0 10px;
+}
+.required{
+	color: #ff0000;
+}
+.nav.side-menu>li.active>a{
+	background: #c81e28;
+}
+.nav.child_menu>li>a{
+	padding: 10px 5px 5px;
+}
+.panel_toolbox>li {
+	float: right;
+}
+.nav.child_menu li{
+	padding-left: 30px;
+}
+.nav-md ul.nav.child_menu li:before{
+	left: 13px;
+	margin-top: 10px;
+}
+.nav-md ul.nav.child_menu li:after{
+	left: 17px;
+}
+.nav.child_menu>li>a{
+	padding: 5px 3px 3px;
+}
+.profile_info {
+	padding: 10px;
+}
+.profile_info h2{
+	font-weight: bold;
+}
+.profile_info h3{
+	font-size: 12px;
+	color: #ECF0F1;
+	margin: 0;
+	font-weight: 300;
+}
+
+.row-taskno {
+  width: 4%;
+}
+.row-default {
+  width: 5%;
+}
+.tdlcolwidth td {
+  white-space: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+table thead tr th{ text-align: center; }
+.vieweditico{ font-size: 20px; }
+
+table.jambo_table thead{
+	background: #c3282d;
+	color: #ECF0F1;
+}
+label{
+	padding-top: 5px;
+}
+.row{
+	padding-bottom: 1px;
+}
+.text-red{
+	color: #ff0000;
+}
+.ui-datepicker-month,.ui-datepicker-year{
+	color: #000;
+}
+textarea{
+	resize: none;
+}
+.overduedt{
+	background-color:#E74C3C;
+	color:#F6F5AE;
+}
+
+.duetoday{
+	background-color:#3498DB;
+	color:#F6F5AE;
+}
+#datatblTDLPending tr:hover> .overduedt, #datatblTDLPending tr:hover> .duetoday,
+#taskstbldata tr:hover > .duetoday, #taskstbldata tr:hover > .overduedt, table.jambo_table tbody tr:hover> .overduedt {
+	color: #333333;
+}
+.nav-sm .logo_full {
+	display: none;
+}
+.nav-sm .logo_mark {
+	display: block;
+}
+
+#dataBusType {
+	color: #c3282d;
+}
+
+
+/*=======search bar=====*/
+.search-bar-head {
+	width: 28%;
+}
+
+.search-bar-head .form-control {
+	border-radius: 25px 0 0 25px!important;	
+}
+
+
+/*modal*/
+.modal {
+	z-index: 1005
+}
+.modal-backdrop {
+	z-index: 1003;
+}
+.nav-sm .container.body .col-md-3.left_col {
+    z-index: 1002;
+}
+.btn-warning {
+	color: #fff;
+	background-color: #8a8a8a;
+	border-color: #8a8a8a;
+}
+.m-progress-bar {
+    min-height: 0.2em;
+    background: #c12d2d;
+    width: 5%;
+}
+.multi-step .modal-body, #frmOpps .modal-body {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+ 
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) {
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px){
+ 	.logo_full {
+		display: block;
+	}
+	.logo_mark {
+		display: none;
+	} 
+	.toggle {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+  
+}
+
+
+
+
+
+@media (max-width: 991px){
+	.logo_full {
+		display: none;
+	}
+	.logo_mark {
+		display: block;
+		width: 4rem!important;
+		margin: 0 11%;
+	}
+	.profile-icon {
+/*		width: 100%;*/
+		text-align: right;
+	}
+	.top_nav .navbar-right {
+    margin: 0;
+    width: 80%;
+    float: right;
+	}
+	.search-bar-head {
+		width: 23%;
+	}
+	.toggle {
+		padding-top: 7px;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+	@media (max-width: 475px) {
+		.hide-on-mobile {
+			display: none!important;
+		}
+		.profile-icon {
+	/*		width: 100%;*/
+			text-align: right;
+		}
+		.top_nav .navbar-right {
+			margin: 0;
+			width: 75%;
+			float: right;
+		}
+		.search-bar-head {
+			width: 35%;
+		}
+		.nav_menu {
+			padding: 0;
+		}
+		.toggle a {
+			padding: 15px 10px 0;
+		}
+}
+@media (max-width: 320px)  {
+	.top_nav .navbar-right {
+		margin: 0;
+		width: 72%;
+		float: right;
+	}
+	.input-group-addon, .input-group-btn {
+    width: 0%;
+	}
+}
+

@@ -1,0 +1,116 @@
+body{
+	font-size: 11px;
+	background: #c3282d;
+}
+a{
+	color: #3d3d3d;
+}
+.nav>li>a {
+    padding: 5px 5px 2px;
+}
+.nav.child_menu>li>a {
+    color: rgba(255,255,255,.75);
+    font-size: 11px;
+    padding: 5px;
+}
+.left_col{
+	background: #c3282d;
+}
+.nav_title{
+	background: #c3282d;
+}
+.sidebar-footer, .sidebar-footer a{
+	background: #c3282d;
+}
+.nav_menu{
+	background: #eee;
+}
+.login{
+	background: #c3282d;
+}
+.login_wrapper{
+	max-width: 400px;
+}
+.login a{
+	color: #000;
+}
+.login_form{
+	padding: 10px;
+	border-radius: 10px;
+	background: #fff;
+}
+.login_content form input[type=text]{
+	margin: 0 0 10px;
+}
+.required{
+	color: #ff0000;
+}
+.nav.side-menu>li.active>a{
+	background: #c81e28;
+}
+.nav.child_menu>li>a{
+	padding: 10px 5px 5px;
+}
+.panel_toolbox>li {
+	float: right;
+}
+.nav.child_menu li{
+	padding-left: 30px;
+}
+.nav-md ul.nav.child_menu li:before{
+	left: 13px;
+	margin-top: 10px;
+}
+.nav-md ul.nav.child_menu li:after{
+	left: 17px;
+}
+.nav.child_menu>li>a{
+	padding: 5px 3px 3px;
+}
+.profile_info h2{
+	font-weight: bold;
+}
+.profile_info h3{
+	font-size: 12px;
+	color: #ECF0F1;
+	margin: 0;
+	font-weight: 300;
+}
+
+/* newly added*/
+
+table thead tr th{ text-align: center; }
+.vieweditico{ font-size: 20px; }
+
+table.jambo_table thead{
+	background: #c3282d;
+	color: #ECF0F1;
+}
+label{
+	padding-top: 5px;
+}
+.row{
+	padding-bottom: 1px;
+}
+.text-red{
+	color: #ff0000;
+}
+.ui-datepicker-month,.ui-datepicker-year{
+	color: #000;
+}
+textarea{
+	resize: none;
+}
+
+
+/*================kede edits===============*/
+.logo-dashboard {
+	padding: 5px;
+}
+.logo-dashboard img {
+	width: 100%;
+}
+
+
+/*================kede edits===============*/
+
